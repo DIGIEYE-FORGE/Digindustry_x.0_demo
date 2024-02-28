@@ -22,7 +22,7 @@ function SolutionsProductios({ data, url }: Props) {
     <div className="flex flex-col bg-muted items-center">
       <h1 className="text-3xl font-[600]">{data.title}</h1>
       <p className="text-sm mt-4">{data.description}</p>
-      <div className="flex flex-wrap items-center gap-[4rem] justify-evenly  mt-8">
+      <div className="flex flex-wrap items-center gap-[6rem] justify-evenly  mt-8">
         {data.children.map((content, index) => (
           <Fragment key={index}>
             <motion.div
